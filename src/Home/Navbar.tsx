@@ -1,5 +1,5 @@
-import "../Styles/Navbar.css";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import "./Styles/Navbar.css";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 export default function NavBar() {
     return (
@@ -7,7 +7,7 @@ export default function NavBar() {
             <Navbar className="navbar">
                 <Container>
                     <Navbar.Brand href="#home">
-                        <i className="fas fa-pencil-alt"></i> UnoNote
+                        <i className="fas fa-pencil-alt"></i> My App Collection
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -16,7 +16,7 @@ export default function NavBar() {
                                 Home
                             </Nav.Link>
                             <Nav.Link className="nav-item" href="#link">
-                                Link
+                                Settings
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
